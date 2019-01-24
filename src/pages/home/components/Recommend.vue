@@ -2,7 +2,7 @@
   <div>
     <div class="recommend-title">热销推荐</div>
       <ul>
-        <li class="item border-bottom"  v-for="item of recommendList" :key="item.id">
+        <li class="item border-bottom"  v-for="item of list" :key="item.id">
           <img class="item-img" :src="item.imgUrl" alt="">
           <div class="item-info">
             <p class="item-title">{{item.title}}</p>
@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1804/99/9992ca60e89a46bfa3.water.jpg_200x200_d8b18a42.jpg',
-        title: '云台山',
-        desc: '国家5A级景区国家5A级景区国家5A级景区国家5A级景区国家5A级景区国家5A级景区'
-      },{
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1804/99/9992ca60e89a46bfa3.water.jpg_200x200_d8b18a42.jpg',
-        title: '云台山',
-        desc: '国家5A级景区国家5A级景区国家5A级景区国家5A级景区国家5A级景区国家5A级景区'
-      },{
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1804/99/9992ca60e89a46bfa3.water.jpg_200x200_d8b18a42.jpg',
-        title: '云台山',
-        desc: '国家5A级景区国家5A级景区国家5A级景区国家5A级景区国家5A级景区国家5A级景区'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
