@@ -2,6 +2,17 @@
 
 > A Vue.js project
 
+##展示
+![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q1.png)
+
+![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q2.png)
+
+![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q3.png)
+
+![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q4.png)
+
+![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q5.png)
+
 ## Build Setup
 
 ``` bash
