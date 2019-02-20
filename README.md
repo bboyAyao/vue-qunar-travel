@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-## 展示
+### 展示
 
 ![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q1.png)
 ![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q2.png)
@@ -10,7 +10,7 @@
 ![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q4.png)
 ![](https://github.com/bboyAyao/vue-qunar-travel/blob/master/images/q5.png)
 
-## 介绍
+### 介绍
 
 页面路由系统由vue-router提供  
 多个组件之间的数据传递由vuex共享   
@@ -18,7 +18,7 @@ better-scroll组件处理移动端滚动
 vue-axios请求本地数据  
 图标来自iconfont 图标库
 
-## Build Setup
+### Build Setup
 
 ``` bash
 # install dependencies
